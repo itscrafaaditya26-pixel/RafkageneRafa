@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="id">
 <head>
-    <title>Rafa</title>
+  <meta charset="UTF-8">
+  <title>RafkageneRafa</title>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      text-align: center;
+      margin-top: 150px;
+      font-family: Arial;
+    }
+
+    /* Popup melayang */
+    .popup {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 10px;
+    }
+  </style>
 </head>
 
-<body style="text-align:center; margin-top:200px;">
+<body>
 
-    <h1>RAFA</h1>
+  <!-- Popup -->
+  <div class="popup">Selamat Datang</div>
 
-    <button onclick="mulai()">Mulai</button>
-    <button onclick="lihat()">Lihat</button>
+  <p> aku tau wajah kamu kayak apa</p>
+  <pre>gak percaya? :)</pre>
 
-    <script>
-        function mulai() {
-            window.location.href = "Sumber: GitHub https://share.google/n6YOmgrSLPGUgZOU1";
-        }
+  <img src="hack.png" alt="gambar">
+  <br><br>
 
-        function lihat() {
-            window.open("https://link-gambar.com");
-        }
-    </script>
+  <a href="https://share.google/450pRaHSQC14AyZ13">
+    <button>klik disini nanti ada wajah mu</button>
+  </a>
 
 </body>
 </html>
